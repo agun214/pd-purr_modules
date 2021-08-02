@@ -1,4 +1,4 @@
-#!/bi/bash
+#!/bin/bash
 #
 #	prints IP address of Raspberry Pi WiFi 
 
