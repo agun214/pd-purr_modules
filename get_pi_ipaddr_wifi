@@ -1,0 +1,6 @@
+#!/bi/bash
+#
+#	prints IP address of Raspberry Pi WiFi 
+
+ifconfig | grep -C 1 wlan0:| grep inet |awk '{print }'
+
